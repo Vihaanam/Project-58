@@ -1,0 +1,89 @@
+body {
+    padding-top: 800px;
+    text-align: center;
+}
+
+.main {
+    background: repeating-linear-gradient(45deg, orange 0%, lightgreen 10%, skyblue 20%, lightgreen 30%, orange 40%);
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.75;
+    display: table;
+    overflow: hidden;
+    z-index: 9;
+}
+
+img {
+    height: 50%;
+    width: 30%;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+#inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bio {
+    text-align: center;
+    padding: 50px;
+    font-size: 42px;
+}
+
+p {
+    line-height: 1.3;
+    font-size: 20px;
+    margin: 25px auto;
+    max-width: 450px;
+}
+
+hr {
+    width: 100%;
+    height: 10px;
+    background-color: darkslategray;
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: Georgia;
+}
+
+#my {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: Tahoma;
+    font-variant: small-caps;
+}
+
+.container {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    font-family: 'Fraunces', serif;
+    color: red;
+    font-size: 20px;
+    float: left;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.links:hover {
+    background-color: yellow;
+}
