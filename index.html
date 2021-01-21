@@ -11,24 +11,54 @@
 
 <body>
     <ul class="container">
-        <li class="links">About</li>
-        <li class="links">My favourite badminton matches</li>
-        <li class="links">My work</li>
-        <li class="links">Inspiration</li>
-        <li class="links">Contacts</li>
+        <li class="links"><a href="#main">Home</a></li>
+        <li class="links"><a href="#bio">About</a></li>
+        <li class="links"><a href="#match">My favourite badminton matches</a></li>
+        <li class="links"><a href="#work">Work</a></li>
+        <li class="links"><a href="#ns">Inspiration</a></li>
+        <li class="links"><a href="#">Contacts</a></li>
     </ul>
-    <section class="main">
+    <section id="main">
         <div id="inner">
             <img src="data:image/png;base64,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">
             <h1 id="name">Badminton - my favourite hobby!</h1>
         </div>
+        <br>
     </section>
-    <section class="bio">
-        <h2 id="my">Hi! I am Vihaan</h2>
+    <section id="bio">
+        <h2 class="my">About</h2>
         <hr>
         <br>
         <p>
             Hi I am Vihaan. I am 11 years old and study in 6th standard of my school. I like playing badminton. Badminton is beneficial for health. Here is an article on it.<br><br>Badminton, court or lawn game played with lightweight rackets and a shuttlecock. Historically, the shuttlecock (also known as a “bird” or “birdie”) was a small cork hemisphere with 16 goose feathers attached and weighing about 0.17 ounce (5 grams). These types of shuttles may still be used in modern play, but shuttles made from synthetic materials are also allowed by the Badminton World Federation. The game is named for Badminton, the country estate of the dukes of Beaufort in Gloucestershire, England, where it was first played about 1873. The roots of the sport can be traced to ancient Greece, China, and India, and it is closely related to the old children’s game battledore and shuttlecock. Badminton is derived directly from poona, which was played by British army officers stationed in India in the 1860s. The first unofficial all-England badminton championships for men were held in 1899, and the first badminton tournament for women was arranged the next year.<br><br>This sport has many rules and increases our stamina. It makes hand-eye co-ordination better and our mental health too.
         </p>
     </section>
-</body></html>
+    <section id="match">
+        <h2 class="my">My favourite badminton matches</h2>
+        <hr>
+        <br>
+        <iframe width="727" height="409" src="https://www.youtube.com/embed/iOAItS2jyq4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <iframe width="727" height="409" src="https://www.youtube.com/embed/SCleej2Efro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+    </section>
+    <section id="work">
+        <h2 class="my">Work</h2>
+        <hr>
+        <br>
+        <div>
+            <a class="writingss" href="https://vihaanam.github.io/Photos/" target="_blank">Photos</a>
+        </div>
+        <div>
+            <a class="writingss" href="https://en.wikipedia.org/wiki/Badminton" target="_blank">Badminton explanation</a>
+        </div>
+    </section>
+    <section id="ns">
+        <h2 class="my">Inspiration</h2>
+        <hr>
+        <br>
+        <iframe src="https://en.wikipedia.org/wiki/P._V._Sindhu" height="409" width="727" frameborder="0"></iframe>
+    </section>
+</body>
+
+</html>
