@@ -18,7 +18,7 @@ body {
     z-index: 9;
 }
 
-img {
+.ii {
     height: 50%;
     width: 30%;
     border-radius: 50%;
@@ -117,4 +117,18 @@ a {
 
 .writingss:hover {
     color: deeppink;
+}
+
+.inspi {
+    margin: 20px;
+    height: 400px;
+    width: 280px;
+    border-width: 25px;
+    border-color: lightcyan;
+    border-style: solid;
+    transition: transform .2s;
+}
+
+.inspi:hover {
+    transform: scale(0.9);
 }
