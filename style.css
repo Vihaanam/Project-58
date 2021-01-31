@@ -67,29 +67,35 @@ hr {
 .container {
     list-style: none;
     position: fixed;
-    top: 10px;
-    right: 30px;
+    top: 0px;
+    left: 0px;
     z-index: 10;
     cursor: pointer;
+    width: 100%;
+    margin-top: 0px;
+    background-color: black;
 }
 
 .links {
-    float: left;
     padding-left: 9px;
     padding-right: 9px;
     padding-top: 5px;
     padding-bottom: 5px;
+    display: inline;
+    font-size: 25px;
+    font-family: serif;
 }
 
 .links:hover {
-    background-color: yellow;
+    text-decoration: underline;
 }
 
 a {
     font-family: 'Fraunces', serif;
-    color: red;
-    font-size: 20px;
+    color: white;
+    font-size: 25px;
     text-decoration: none;
+    text-shadow: 2px 2px red;
 }
 
 #match {
@@ -111,8 +117,10 @@ a {
 }
 
 .writingss {
-    color: blue;
-    font-size: 25px;
+    color: blue !important;
+    font-size: 25px !important;
+    text-decoration: underline !important;
+    text-shadow: none !important;
 }
 
 .writingss:hover {
@@ -131,4 +139,24 @@ a {
 
 .inspi:hover {
     transform: scale(0.9);
+}
+
+#contact {
+    text-align: center;
+    padding: 50px;
+    font-size: 42px;
+    background-color: orange;
+}
+
+#mapping {
+    width: 100%;
+}
+
+.end {
+    text-shadow: none !important;
+    color: blue !important;
+}
+
+.socio h3 {
+    display: inline;
 }
